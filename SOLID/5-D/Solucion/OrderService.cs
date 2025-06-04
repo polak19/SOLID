@@ -9,6 +9,9 @@ namespace SOLID._5_D.Solucion
 {
     public  class OrderService
     {
+        //no depende de una clase, depende de una abstracción.
+        //en este caso una interface
+
         public readonly IEventNotificationService _eventNotificationService;
         public OrderService(IEventNotificationService eventNotificationService)
         {

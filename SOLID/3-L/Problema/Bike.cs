@@ -10,15 +10,15 @@ namespace SOLID._3_L.Problema
     {
         public override void SpeedUp()
         {
-            
+            //codigo speedUp
         }
         public override void Brake()
         {
-            
+           //codigo brake 
         }
         public override void Park()
         {
-           
+           //Codigo Park
         }
         public override void TakeOff()
         {

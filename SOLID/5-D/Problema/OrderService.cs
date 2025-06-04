@@ -16,6 +16,9 @@ namespace SOLID._5_D.Problema
 
         public void GenerateOrder(Order order)
         {
+            //codigo para generar la Orden 
+
+            //envia notificación to datadog
             _dataDogService.LogEvent("The Order wa sucessfull created");
         }
     }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID._2_O.Problema
 {
+    //Se clase con más reportes 
     internal class ReportingService_2
     {
         public void GenerateReport(List<Order> orders, ReportType_2 type)

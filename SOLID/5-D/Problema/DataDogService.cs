@@ -8,10 +8,11 @@ namespace SOLID._5_D.Problema
 {
     public  class DataDogService
     {
+      
         public void LogEvent(string message)
         {
             // Simulate logging to DataDog
-             //Servicio que permite loguear eventos 
+             //Servicio de monitores de aplicaciones, es decir eventos 
         }
     }
 }

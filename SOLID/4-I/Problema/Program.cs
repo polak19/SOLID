@@ -11,7 +11,8 @@ namespace SOLID._4_I.Problema
         public static void main()
         {
             BurgerOrderService service = new BurgerOrderService();
-            service.OrderBurger(2);
+            
+            service.OrderBurger(2);  //aca no se nota que hay un problema, pero en la arquitectura de la app hay un problema
         }
     }
 }

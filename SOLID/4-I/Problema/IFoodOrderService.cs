@@ -8,6 +8,7 @@ namespace SOLID._4_I.Problema
 {
     internal interface IFoodOrderService
     {
+        //define tres servicios
         void OrderBurger(int quantity);
         void OrderPizza(int quantity);
         void OrderSalad(int quantity);

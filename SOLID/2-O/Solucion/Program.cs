@@ -11,7 +11,7 @@ namespace SOLID._2_O.Solucion
         public static void Main()
         {
             List<Order> orders = new List<Order>();  // Simulamos una lista de órdenes
-            ReportingService service = new ReportingService(new ReportGeneratorPDF());
+            ReportingService service = new ReportingService(new ReportGeneratorPDF()); //definimos el tipo de reporte vamos generar.
             service.GenerateReport(orders);
              
         }

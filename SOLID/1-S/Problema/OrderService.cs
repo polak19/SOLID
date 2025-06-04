@@ -12,6 +12,7 @@ namespace SOLID._1_S.Problema
         {
             try
             {
+                //insertamos la orden
                 this.InsertOrder(order);
                 
                 var invoice = this.CreateInvoice(order);

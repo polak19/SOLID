@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace SOLID._2_O.Problema
 {
+    //la clases es la generadoa los reportes.
+    //¿que pasa el cliente debe generar mas reporates?
     internal class ReportingService
     {
+
         public void GenerateReport(List<Order> orders, ReportType type)
         {
             if (type == ReportType.PDF)

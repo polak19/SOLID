@@ -14,7 +14,7 @@ namespace SOLID._2_O.Problema
 
 
             ReportingService service=new ReportingService();
-            service.GenerateReport(orders, ReportType.PDF);
+            service.GenerateReport(orders, ReportType.PDF); //enviamos la lista de ordes y el tipo que neceisto generar el reporte.
 
 
         }
